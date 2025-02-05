@@ -441,7 +441,6 @@ ELPP_INTERNAL_DEBUGGING_OUT_INFO << ELPP_INTERNAL_DEBUGGING_MSG(internalInfoStre
 #   include <QMap>
 #   include <QQueue>
 #   include <QSet>
-#   include <QLinkedList>
 #   include <QHash>
 #   include <QMultiHash>
 #   include <QStack>
@@ -3029,7 +3028,6 @@ return writeIterator(template_inst.begin(), template_inst.end(), template_inst.s
   ELPP_ITERATOR_CONTAINER_LOG_ONE_ARG(QVector)
   ELPP_ITERATOR_CONTAINER_LOG_ONE_ARG(QQueue)
   ELPP_ITERATOR_CONTAINER_LOG_ONE_ARG(QSet)
-  ELPP_ITERATOR_CONTAINER_LOG_ONE_ARG(QLinkedList)
   ELPP_ITERATOR_CONTAINER_LOG_ONE_ARG(QStack)
   template <typename First, typename Second>
   MessageBuilder& operator<<(const QPair<First, Second>& pair_) {
